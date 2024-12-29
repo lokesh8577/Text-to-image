@@ -32,7 +32,7 @@ class TextToImageGenerator:
         # Hugging Face API setup
         self.API_URL = "https://api-inference.huggingface.co/models/ZB-Tech/Text-to-Image"
         # IMPORTANT: Replace with your actual Hugging Face token
-        self.headers = {"Authorization": "Bearer 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"}
+        self.headers = {"Authorization": "Enter token here"}
         
     def create_widgets(self):
         # Create left panel for controls
